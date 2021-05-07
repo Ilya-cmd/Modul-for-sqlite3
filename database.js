@@ -99,10 +99,6 @@ class DataBase {
         });
     }
 
-    /**
-     * @param {String} value
-     * @returns {String}
-     */
     static ToString(value) {
         return typeof(value) === 'string' ? '\'' + value + '\'' : value;
     }
